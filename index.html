@@ -6,12 +6,12 @@
 <body>
     <h1>PRIN-135 HTML Cheatsheet</h1>
     <ul>
-        <li><a href="">HTML Headers</a></li>
-        <li><a href="">HTML Typography</a></li>
-        <li><a href="">HTML Formatting</a></li>
-        <li><a href="">HTML Media</a></li>
-        <li><a href="">HTML Table</a></li>
-        <li><a href="">HTML Forms</a></li>
+        <li><a href="#Headers">HTML Headers</a></li>
+        <li><a href="#Typography">HTML Typography</a></li>
+        <li><a href="#Formatting">HTML Formatting</a></li>
+        <li><a href="#Media">HTML Media</a></li>
+        <li><a href="#Table">HTML Table</a></li>
+        <li><a href="#Forms">HTML Forms</a></li>
     </ul>
     <section id="Headers">
         <h2>HTML Headers</h2>
@@ -256,6 +256,118 @@ and break lines.
             </tbody>
         </table>
       </section>
-      
+      <section id="Table">
+        <h2>HTML Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th> Description</th>
+                    <th> Markup</th>
+                    <th>Examples</th>
+                    <th> Output</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Table</td>
+                    <td><code>&lt;Table&gt;&lt;/table&gt;
+                    </code></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Table row</td>
+                    <td><code>&lt;em&gt;Emphasized Text&lt;/em&gt;</code></td>
+                    <td><em>Emphasized Text</em></td>
+                </tr>
+                <tr>
+                    <td>Table Data</td>
+                    <td><code>This is normal size text. <br>
+                        &lt;small&gt;This is a smaller text.&lt;/small&gt;</code></td>
+                    <td><small>This is a smaller text.</small></td>
+                </tr>
+                <tr>
+                    <td>Table Head</td>
+                    <td><code>This is a &lt;mark&gt;Marked&lt;/mark&gt; text.</code></td>
+                    <td>This is a <mark></mark> Marked</mark> text.</td>
+                </tr>
+                <tr>
+                    <td>Deleted Text</td>
+                    <td><code>This is a &lt;del&gt;deleted text&lt;/mark&gt; text.</code></td>
+                    <td>This is a <del>deleted text</del> text.</td>
+                </tr>
+                <tr>
+                    <td>Inserted Text</td>
+                    <td><code>This is a &lt;ins&gt;Inserted text&lt;/ins&gt; text.</code></td>
+                    <td>This is a <ins>Inserted text</ins> text.</td>
+                </tr>
+                <tr>
+                    <td>Subscripted Text</td>
+                    <td><code>This is a &lt;sub&gt;Subscripted&lt;/sub&gt; text.</code></td>
+                    <td>This is a <sub>Subscripted</sub> text.</td>
+                </tr>
+                <tr>
+                    <td>Superscript Text</td>
+                    <td><code>This is a &lt;sup&gt;Superscripted&lt;/sup&gt; text.</code></td>
+                    <td>This is a <sup>Superscripted</sup> text.</td>
+                </tr>
+            </tbody>
+        </table>
+      </section>
+      <section id="Forms">
+        <h2>HTML Forms</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th> Description</th>
+                    <th> Markup</th>
+                    <th> Output</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Label</td>
+                    <td><code>&lt;Label&gt;Label:&lt;/label&gt;
+                    </code></td>
+                    <td><label for="">Label:</label></td>
+                </tr>
+                <tr>
+                    <td>Input- Textbox</td>
+                    <td><code>&lt;Input type="text" name="name"&gt;</code></td>
+                    <td><em><input type="text" name="Name" id=""></em></td>
+                </tr>
+                <tr>
+                    <td>Input- Numbers</td>
+                    <td><code>&lt;Input type="number" name="name"&gt;</code></td>
+                    <td><input type="number" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>input - Checkbox</td>
+                    <td><code>&lt;Input type="checkbox" name="name"&gt;</code></td>
+                    <td><input type="checkbox" name="name" id=""></td>
+                </tr>
+                <tr>
+                    <td>input -radio</td>
+                    <td><code>&lt;Input type="radio" name="name"&gt;</code></td>
+                    <td><input type="radio" name="name" id="">option 1 <br> nput type="radio" name="name" id="">option 1</td>
+                </tr>
+                <tr>
+                    <td>Input submit</td>
+                    <input type="submit" name="name" value="submit" id="">option 1
+                    <td><input type="submit" name=""  value="submit"  id=""></td>
+                </tr>
+                <tr>
+                    <td>input button</td>
+                    <td><code>This is a &lt;sub&gt;Subscripted&lt;/sub&gt; text.</code></td>
+                    <td>This is a <sub>Subscripted</sub> text.</td>
+                </tr>
+                <tr>
+                    <td>Superscript Text</td>
+                    <td><code>This is a &lt;sup&gt;Superscripted&lt;/sup&gt; text.</code></td>
+                    <td>This is a <sup>Superscripted</sup> text.</td>
+                </tr>
+            </tbody>
+        </table>
+      </section>
+
 
 </body>
